@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --dark-cyan: #155e75;
+    --light-cyan: #aad6eb;
+    --text:#33a6de;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+p{
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.label {
+    color: var(--text);
+    font-size: larger;
+    padding: 1rem;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    font-size: large;
+    padding: 0.5rem;
+    display: block;
+}
+
+button {
+    background-color: var(--light-cyan);
+    color: var(--dark-cyan);
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cashGivenInput {
+    /* display: none;*/
+}
+
+.change-return {
+   /* display: none;*/
+}
+
+.error-message {
+    padding-top: 1rem;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--dark-cyan);
+    background-color: var(--light-cyan);
+    padding: 10px 15px;
+}
+
+
+.no-of-notes {
+    font-weight: bold;
+}
+
+
